@@ -1,5 +1,5 @@
 {
-    "name": "keliix06/laravel-prerender",
+    "name": "craftlogan/laravel-prerender",
     "description": "Laravel middleware for prerendering javascript-rendered pages on the fly for SEO",
     "keywords": ["laravel", "prerender"],
     "license": "MIT",
@@ -11,6 +11,11 @@
         {
             "name": "Doyle Lewis",
             "email": "keliix06@gmail.com"
+        },
+        ,
+        {
+            "name": "Logan Craft",
+            "email": "craftlogan@gmail.com"
         }
     ],
     "require": {
