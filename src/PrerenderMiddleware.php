@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Nutsweb\LaravelPrerender;
+namespace DaltonMcCleery\LaravelPrerender;
 
 
 use Closure;
