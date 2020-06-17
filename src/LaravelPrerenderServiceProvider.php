@@ -17,7 +17,7 @@ class LaravelPrerenderServiceProvider extends ServiceProvider
      */
     protected $defer = false;
 
-    protected $package = 'nutsweb/laravel-prerender';
+    protected $package = 'DaltonMcCleery/laravel-prerender';
 
     /**
      * Bootstrap the application events.
