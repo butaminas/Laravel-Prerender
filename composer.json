@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "DaltonMcCleery\\LaravelPrerender\\": "src/"
+            "\\DaltonMcCleery\\LaravelPrerender\\": "src/"
         }
     },
     "extra": {
