@@ -1,5 +1,5 @@
 {
-    "name": "nutsweb/laravel-prerender",
+    "name": "DaltonMcCleery/laravel-prerender",
     "description": "Laravel middleware for prerendering javascript-rendered pages on the fly for SEO",
     "keywords": ["laravel", "prerender"],
     "license": "MIT",
@@ -17,7 +17,14 @@
     },
     "autoload": {
         "psr-4": {
-            "Nutsweb\\LaravelPrerender\\": "src/"
+            "DaltonMcCleery\\LaravelPrerender\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DaltonMcCleery\\LaravelPrerender\\LaravelPrerenderServiceProvider"
+            ]
         }
     }
 }
