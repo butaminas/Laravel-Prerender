@@ -1,5 +1,5 @@
 {
-    "name": "butaminas/laravel-prerender",
+    "name": "nutsweb/laravel-prerender",
     "description": "Laravel middleware for prerendering javascript-rendered pages on the fly for SEO",
     "keywords": ["laravel", "prerender"],
     "license": "MIT",
@@ -7,19 +7,11 @@
         {
             "name": "Jeroen Noten",
             "email": "jeroennoten@me.com"
-        },
-        {
-            "name": "Doyle Lewis",
-            "email": "keliix06@gmail.com"
-        },
-        {
-            "name": "Logan Craft",
-            "email": "craftlogan@gmail.com"
         }
     ],
     "require": {
-        "php": ">=7.2",
-        "illuminate/support": "^6.0",
+        "php": ">=7.3.0",
+        "illuminate/support": "^6.0|^7.0",
         "guzzlehttp/guzzle": "^6.0",
         "symfony/psr-http-message-bridge": "^1.0"
     },
