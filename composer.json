@@ -10,20 +10,20 @@
         }
     ],
     "require": {
-        "php": ">=7.3.0",
-        "illuminate/support": "^6.0|^7.0",
-        "guzzlehttp/guzzle": "^6.0",
-        "symfony/psr-http-message-bridge": "^1.0"
+    "php": ">=7.3.0",
+    "illuminate/support": "^6.0|^7.0",
+    "guzzlehttp/guzzle": "^6.0",
+    "symfony/psr-http-message-bridge": "^1.0"
     },
     "autoload": {
         "psr-4": {
-            "DaltonMcCleery\\LaravelPrerender\\": "src/"
+            "butaminas\\LaravelPrerender\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "DaltonMcCleery\\LaravelPrerender\\LaravelPrerenderServiceProvider"
+                "butaminas\\LaravelPrerender\\LaravelPrerenderServiceProvider"
             ]
         }
     }
