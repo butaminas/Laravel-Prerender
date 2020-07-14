@@ -17,13 +17,13 @@
     },
     "autoload": {
         "psr-4": {
-            "butaminas\\LaravelPrerender\\": "src/"
+            "DaltonMcCleery\\LaravelPrerender\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "butaminas\\LaravelPrerender\\LaravelPrerenderServiceProvider"
+                "DaltonMcCleery\\LaravelPrerender\\LaravelPrerenderServiceProvider"
             ]
         }
     }
